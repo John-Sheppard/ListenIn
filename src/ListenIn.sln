@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiliconWraith.Web.API", "SiliconWraith.Web.API\SiliconWraith.Web.API.csproj", "{C5E1CD0E-0B84-4873-AD56-87396797EA91}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SiliconWraith.Web.API", "Web\SiliconWraith.Web\SiliconWraith.Web.csproj", "{C5E1CD0E-0B84-4873-AD56-87396797EA91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiliconWrait.Web.API.Host", "Web\SiliconWraith.Web.API.ServiceHost\SiliconWraith.Web.API.ServiceHost.csproj", "{CAF9BDAF-276E-4195-B7DD-DA0687C35F01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiliconWraith.Web.API.Model", "Web\SiliconWraith.Web.API.Model\SiliconWraith.Web.API.Model.csproj", "{6EEEE32F-70E2-44D5-8ABF-EACFE4F8D623}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiliconWraith.Common.API", "Common\SiliconWraith.Common.Api\SiliconWraith.Common.API.csproj", "{CB1E2141-C77E-40B4-9EE7-D2BF52A91CB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiliconWraith.Common", "Common\SiliconWraith.Common\SiliconWraith.Common.csproj", "{9A03692E-7588-43F7-9DF0-5729FEF7EED5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{C5E1CD0E-0B84-4873-AD56-87396797EA91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5E1CD0E-0B84-4873-AD56-87396797EA91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5E1CD0E-0B84-4873-AD56-87396797EA91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAF9BDAF-276E-4195-B7DD-DA0687C35F01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAF9BDAF-276E-4195-B7DD-DA0687C35F01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAF9BDAF-276E-4195-B7DD-DA0687C35F01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAF9BDAF-276E-4195-B7DD-DA0687C35F01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EEEE32F-70E2-44D5-8ABF-EACFE4F8D623}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EEEE32F-70E2-44D5-8ABF-EACFE4F8D623}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EEEE32F-70E2-44D5-8ABF-EACFE4F8D623}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EEEE32F-70E2-44D5-8ABF-EACFE4F8D623}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB1E2141-C77E-40B4-9EE7-D2BF52A91CB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB1E2141-C77E-40B4-9EE7-D2BF52A91CB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB1E2141-C77E-40B4-9EE7-D2BF52A91CB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB1E2141-C77E-40B4-9EE7-D2BF52A91CB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A03692E-7588-43F7-9DF0-5729FEF7EED5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A03692E-7588-43F7-9DF0-5729FEF7EED5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A03692E-7588-43F7-9DF0-5729FEF7EED5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A03692E-7588-43F7-9DF0-5729FEF7EED5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
