@@ -8,23 +8,17 @@ namespace VibeTribe.Common
 {
     public static class EncodingExtensions
     {
-        
-        /*
-         *         GetBytesWithBom
-         *                  This method gets the bytes of a string with a byte order mark.
-         *                  
-         *                  Parameters
-         *                       enc: The encoding to use to get the bytes.
-         *                       text: The string to get the bytes of.
-         *                                
-         *                  Returns
-         *                       A byte array that is the result of getting the bytes of text with a byte order mark.
-         *                       
-         *                  Exceptions
-         *                       ArgumentNullException: Thrown if enc or text is null.
-         */
 
-
+        /// <summary> 
+        /// GetBytesWithBom
+        /// </summary>
+        /// <remarks>
+        /// This method gets the bytes of a string with a byte order mark.
+        /// </remarks>
+        /// <param name="enc">The encoding to use to get the bytes.</param>
+        /// <param name="text">The string to get the bytes of.</param>
+        /// <returns>A byte array that is the result of getting the bytes of text with a byte order mark.</returns> 
+        /// <exception cref="ArgumentNullException">ArgumentNullException: Thrown if enc or text is null.</exception> 
         public static byte[] GetBytesWithBom(this Encoding enc, string text)
         {
             ArgumentNullException.ThrowIfNull(enc);
@@ -33,11 +27,7 @@ namespace VibeTribe.Common
         }
     }
 
-    /*
-     *     ByteHelperExtensions
-     *         This class provides extension methods for byte arrays.
-     *                 
-     */
+    /// <summary>This class provides extension methods for byte arrays.</summary>
     public static class ByteHelperExtensions
     {
         /*

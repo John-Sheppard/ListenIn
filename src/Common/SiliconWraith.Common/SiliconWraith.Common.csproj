@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SiliconWraith.Common.Api\SiliconWraith.Common.API.csproj" />
+  </ItemGroup>
+
 </Project>
